@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logout_sheet_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary_color"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="7dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/delete_sheet_shape" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/logout_info"
+        android:textColor="@color/gray"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/logout_true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/delete_true"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/yes"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/logout_false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/delete_false"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/no"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>
