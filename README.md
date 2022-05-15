@@ -16,4 +16,4 @@
 
 ### Visual Demo :
 
-<img src="https://github.com/rajeshbasnet/dma_todo_app/blob/main/todo.gif" width="400px" height="400px">
+![Alt Text](https://github.com/rajeshbasnet/dma_todo_app/blob/main/todo.gif)
