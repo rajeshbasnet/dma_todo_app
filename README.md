@@ -1,6 +1,6 @@
-# Todo Application
+# todo application
 
-## Created by Rajesh Basnet. C7227155. The British College
+## Created by Rajesh Basnet (C7227155). Mobile Application
 
 ### Features :
 
@@ -13,6 +13,7 @@
 7. Use of MVVM Design Pattern
 8. Minimalistic UI
 9. Room Database
+10. Use of gif in splash screen
 
 ### Visual Demo :
 
